@@ -1,0 +1,39 @@
+@import url(../partials/contact-card/contact-card.css);
+@import url(../partials/message-card/message-card.css);
+@import url(../partials/search-panel/search-panel.css);
+
+* {
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+	width: 98vw;
+	height: 98vh;
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612903918_22-p-krasno-fioletovii-fon-26.jpg);
+	background-size: cover;
+}
+
+.flex {
+	display: flex;
+}
+
+.col {
+	flex-direction: column;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
+.grow3 {
+	flex-grow: 3;
+}
+
+.main {
+	flex-wrap: nowrap;
+	align-items: stretch;
+	height: 100%;
+	width: 100%;
+}
+

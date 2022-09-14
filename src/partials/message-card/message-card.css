@@ -1,0 +1,14 @@
+.message-card {
+	border: 1px solid;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 8px 8px 8px 0;
+	background: rgba(81, 161, 175, 0.8);
+	max-width: 40%;
+}
+
+.my {
+	background: rgba(79, 231, 137, 0.8);
+	border-radius: 8px 8px 0 8px;
+	margin-left: auto;
+}
