@@ -4,6 +4,7 @@
 @import url(../partials/options-panel/options-panel.css);
 @import url(../partials/message-panel/message-panel.css);
 @import url(../partials/chat-panel/chat-panel.css);
+@import url(../partials/content-wrapper/content-wrapper.css);
 
 
 
@@ -15,8 +16,9 @@
 body {
 	width: 98vw;
 	height: 98vh;
-	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612903918_22-p-krasno-fioletovii-fon-26.jpg);
+	background-image: url(../asserts/background.jpg);
 	background-size: cover;
+	overflow: hidden;
 }
 
 .flex {

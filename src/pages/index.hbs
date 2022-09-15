@@ -2,20 +2,12 @@
 <div class="flex main">
     <div class="flex col grow">
         {{> 'search-panel/search-panel'}}
-        <div class="chats_list grow">
-            {{#each chats}}
-            {{> 'contact-card/contact-card' this.chat}}
-            {{/each}}
-        </div>
+        {{> 'content-wrapper/content-wrapper' chats}}
         {{> 'options-panel/options-panel'}}
     </div>
     <div class="flex col grow3">
         {{> 'chat-panel/chat-panel'}}
-        <div class="messages_list grow">
-            {{#each messages}}
-            {{> 'message-card/message-card' this.message}}
-            {{/each}}
-        </div>
+        {{> 'content-wrapper/content-wrapper' messages}}
         {{> 'message-panel/message-panel'}}
     </div>
     </div>

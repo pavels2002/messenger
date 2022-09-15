@@ -1,18 +1,29 @@
-[
-    {"message":{
-        "text": "Привет",
-        "isMine": true
-    }},
-    {"message":{
-        "text": "Здарова",
-        "isMine": false
-    }},
-    {"message":{
-        "text": "Го пить пиво?",
-        "isMine": true
-    }},
-    {"message":{
-        "text": "Не, пока не могу))",
-        "isMine": false
-    }}
-]
+{
+    "partial": "message-card/message-card",
+    "entities": [
+        {
+            "entity": {
+                "text": "Привет",
+                "isMine": true
+            }
+        },
+        {
+            "entity": {
+                "text": "Здарова",
+                "isMine": false
+            }
+        },
+        {
+            "entity": {
+                "text": "Как сам?",
+                "isMine": true
+            }
+        },
+        {
+            "entity": {
+                "text": "Классно!!!",
+                "isMine": false
+            }
+        }
+    ]
+}

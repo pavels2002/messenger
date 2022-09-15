@@ -1,0 +1,5 @@
+<div class="content-wrapper">
+    {{#each entities}}
+    {{> (lookup .. 'partial') this.entity}}
+    {{/each}}
+</div>
