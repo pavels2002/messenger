@@ -1,46 +1,21 @@
-{{!< main}}
-
-	<div class="flex main">
-		<div class="flex col grow">
-			<div class="card search_panel">
-				search_panel
-			</div>
-			<div class="chats_list grow">
-
-				<div class="contact-card ">Вован</div>
-
-				<div class="contact-card ">PAV</div>
-
-				<div class="contact-card ">Андрей</div>
-
-				<div class="contact-card " >T->T1</div>
-
-				<div class="contact-card ">Зяба</div>
-
-			</div>
-			<div class="card Options">
-				Options
-			</div>
-		</div>
-		<div class="flex col grow3">
-			<div class="card chat_info">
-				chat_info
-			</div>
-			<div class="messages_list grow">
-
-				<div class="message-card ">sdfsdfsdfasdfasfd</div>
-
-				<div class="message-card ">sdfsdfsdfasdfasfd</div>
-
-				<div class=" my message-card">sdfsdfsdfasdfasfd</div>
-
-				<div class="message-card ">sdfsdfsdfasdfasfd</div>
-
-				<div class="my message-card">sdfsdfsdfasdfasfd</div>
-
-			</div>
-			<div class="card new_message">
-				new_message
-			</div>
-		</div>
+{{!< main}} 
+<div class="flex main">
+    <div class="flex col grow">
+        {{> 'search-panel/search-panel'}}
+        <div class="chats_list grow">
+            {{#each chats}}
+            {{> 'contact-card/contact-card' this.chat}}
+            {{/each}}
+        </div>
+        {{> 'options-panel/options-panel'}}
+    </div>
+    <div class="flex col grow3">
+        {{> 'chat-panel/chat-panel'}}
+        <div class="messages_list grow">
+            {{#each messages}}
+            {{> 'message-card/message-card' this.message}}
+            {{/each}}
+        </div>
+        {{> 'message-panel/message-panel'}}
+    </div>
     </div>

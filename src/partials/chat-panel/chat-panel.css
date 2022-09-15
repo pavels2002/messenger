@@ -1,12 +1,7 @@
-.contact-card {
+.chat-panel {
 	border: 1px solid;
 	padding: 5px;
 	margin: 2px;
 	border-radius: 8px;
 	background-color: antiquewhite;
-    height: 50px;
-}
-.contact-card:hover {
-	background-color: rgb(238, 204, 159);
-	;
 }

@@ -1,6 +1,11 @@
 @import url(../partials/contact-card/contact-card.css);
 @import url(../partials/message-card/message-card.css);
 @import url(../partials/search-panel/search-panel.css);
+@import url(../partials/options-panel/options-panel.css);
+@import url(../partials/message-panel/message-panel.css);
+@import url(../partials/chat-panel/chat-panel.css);
+
+
 
 * {
 	box-sizing: border-box;

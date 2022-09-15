@@ -1,0 +1,18 @@
+[
+    {"message":{
+        "text": "Привет",
+        "isMine": true
+    }},
+    {"message":{
+        "text": "Здарова",
+        "isMine": false
+    }},
+    {"message":{
+        "text": "Го пить пиво?",
+        "isMine": true
+    }},
+    {"message":{
+        "text": "Не, пока не могу))",
+        "isMine": false
+    }}
+]
